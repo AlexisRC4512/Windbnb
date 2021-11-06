@@ -1,14 +1,102 @@
+.main-nav{
+    margin-top: 50px;
+    z-index: 998;
+}
+li{
+    list-style: none;
+  
+}
+a{
+    text-decoration: none;
+}
+.main-nav span{
+    font-size: 2rem;    
+    color: tomato;
+}
 .tamaño{
-    width: 300px;
-    height: 300px;
+    width: 100%;
+    height: 250px;
     border-radius: 30px;
 }
 #mov{
-    margin-top: 200px;
+    margin-top: 100px;
 }
 .card{
     border-radius: 30px;
 }
-.filtrer{
-    display: none;
+
+.box-seach a{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    border-right: 1px solid #f2f2f2;
+}
+.box-seach a i{
+    color: tomato;
+}
+.box-seach{
+    box-shadow: 0px 1px 6px rgb(0 0 0 / 20%);
+    padding-top: 10px;
+    border-radius:30px;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    z-index: 998;
+}
+.box-seach1{
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+    box-shadow: 0px 1px 6px rgb(0 0 0 / 20%);
+    border-radius:30px;
+    height: 50px;
+    background-color: #f2f2f2;
+    text-align: center;
+ 
+}
+.box-seach1 a{
+    font-size: 20px;
+    color: black;
+}
+.box-seach1 i{
+    color: tomato;
+}
+.city{
+    background-color: #f2f2f2;
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 20px;
+    text-align: left;
+}
+.menu-desplegable{
+    background-color: #f2f2f2;
+    position: absolute;
+    z-index: 2000;
+}
+.list{
+    line-height: 15px;
+    margin-top: 50px;
+    background-color: #f2f2f2;
+    padding-bottom: 100px;
+}
+.list i{
+    margin-top: 10px;
+}
+#adults{
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: 600;
+}
+#kids{
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: 600;
+}
+#num1{
+
+    margin: 15px;
+}
+#num2{
+
+    margin: 15px;
 }
