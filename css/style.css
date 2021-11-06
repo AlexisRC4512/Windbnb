@@ -1,0 +1,14 @@
+.tamaño{
+    width: 300px;
+    height: 300px;
+    border-radius: 30px;
+}
+#mov{
+    margin-top: 200px;
+}
+.card{
+    border-radius: 30px;
+}
+.filtrer{
+    display: none;
+}
