@@ -72,6 +72,15 @@ a{
     background-color: #f2f2f2;
     position: absolute;
     z-index: 2000;
+    transition:transform .3s ease;    
+    transform: translate(0,-100%);
+}
+.active{
+    transform: translate(0,0);
+ 
+}
+.opacidad{
+    opacity: 0;
 }
 .list{
     line-height: 15px;
@@ -99,4 +108,8 @@ a{
 #num2{
 
     margin: 15px;
+}
+.exit{
+    color: black;
+    float: right;
 }
