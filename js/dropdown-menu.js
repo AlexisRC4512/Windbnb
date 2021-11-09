@@ -6,7 +6,7 @@ export default function dropdownMenu(city,guest){
     const exit=d.querySelector(".exit")
         const guest_opc=d.querySelector(".guest-opc")
     d.addEventListener('click',(e)=>{
-        console.log("funciona") 
+
         if(e.target.matches(city)){
             menu.classList.add("active");
             city_opc.classList.remove("opacidad")

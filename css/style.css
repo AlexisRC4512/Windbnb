@@ -62,7 +62,6 @@ a{
     color: tomato;
 }
 .city{
-    background-color: #f2f2f2;
     font-weight: 600;
     font-size: 20px;
     margin-top: 20px;
@@ -112,4 +111,9 @@ a{
 .exit{
     color: black;
     float: right;
+}
+.filter{
+    visibility: hidden;
+    opacity: 0;
+    order: 1;
 }
