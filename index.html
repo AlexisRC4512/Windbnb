@@ -16,36 +16,36 @@
             <div class="container">
                     <span>Edit your search</span><a href="" class="exit"><i class="fas fa-times-circle fa-2x"></i></a>
                         <div class="row col-10 box-seach1">
-                            <a href="" class="col-12 col-lg-4 m-2 text-center city">ciudad</a>
-                            <a href="" class="col-12 col-lg-4 m-2 text-center guest"  >Add guest</a>
+                            <a href="" class="col-12 col-lg-4 m-2 text-center city location" >Location</a>
+                            <a href="" class="col-12 col-lg-4 m-2 text-center  guest cont-adult">Add guest</a>
                             <a href="" class="col-12 col-lg-2 m-2 text-center "><i class="fas fa-search fa-1x"></i></a>
                         </div>
             </div>
                         <div class="list " id="lugarA" >
-                            <div class="container-fluid row " > 
+                            <div class="container-fluid row ">
                                 <ul class=" col-12 col-lg-5 m-4 city-opc">
-                                    <li class="lugar1 m-2"><i class="fas fa-map-marker-alt m-1 text-danger"></i><a href="" id="city1">Lima <p id="replace"></p></a></li>
-                                    <li class="lugar1 m-2"><i class="fas fa-map-marker-alt m-1 text-danger"></i><a id="city2">IcA</a></li>
-                                    <li class="lugar1 m-2"><i class="fas fa-map-marker-alt m-1 text-danger"></i><a id="city3">Nueava zelanda</a></li>
-                                    <li class="lugar1 m-2"><i class="fas fa-map-marker-alt m-1 text-danger"></i><a id="city4">canada</a></li>
+                                    <li class="lugar1 m-2"><i class="fas fa-map-marker-alt m-1 text-danger"></i><a href="" id="city1">Lima </a></li>
+                                    <li class="lugar1 m-2"><i class="fas fa-map-marker-alt m-1 text-danger"></i><a  href="" id="city2">IcA</a></li>
+                                    <li class="lugar1 m-2"><i class="fas fa-map-marker-alt m-1 text-danger"></i><a href="" id="city3">Nueava zelanda</a></li>
+                                    <li class="lugar1 m-2"><i class="fas fa-map-marker-alt m-1 text-danger"></i><a href="" id="city4">canada</a></li>
                                 </ul>
                                 <ul class="col-12 col-lg-5 m-4 guest-opc"> 
                                     <div id="adults">
                                         <li><p>Adults</p></li>
                                         <span class="spa-mov">Ages 13 or above</span>
                                         <div class="row col-5">
-                                            <a href="" class="col-2"><i class="fas fa-plus-square fa-2x"></i></a>
-                                            <span class="col-1" id="num1">0</span>
-                                            <a href="" class="col-2"><i class="fas fa-minus-square fa-2x"></i></a>
+                                            <a href="" class="col-2" ><i class="fas fa-plus-square fa-2x" id="sumNum-Adult"></i></a>
+                                            <span class="col-1 " id="cont-adult">0</span>
+                                            <a href="" class="col-2" ><i class="fas fa-minus-square fa-2x" id="resNum-Adult"></i></a>
                                         </div>
                                     </div>
                                     <div id="kids">
                                         <li><p>Children</p></li>
                                         <span class="spa-mov">Ages 2 - 12</span>
                                         <div class="row col-5">
-                                            <a href="" class="col-2"><i class="fas fa-plus-square fa-2x"></i></a>
-                                            <span class="col-1" id="num2">0</span>
-                                            <a href="" class="col-2"><i class="fas fa-minus-square fa-2x"></i></a>
+                                            <a href="" class="col-2"><i class="fas fa-plus-square fa-2x" id="sumNum-Kids"></i></a>
+                                            <span class="col-1" id="cont-kids">0</span>
+                                            <a href="" class="col-2"><i class="fas fa-minus-square fa-2x" id="resNum-Kids"></i></a>
                                         </div>
                                     </div>
                                 </ul>
@@ -53,17 +53,20 @@
                         </div>
       </nav>
         <div class="container">
-            
-            <div class="row">
+            <div class="row" >
                 <nav class="main-nav row col-12 ">
                     <span class="col-12 col-lg-3 text-center"> windbnb</span>
-                    <div class="col-12 col-lg-3 box-seach ">
-                        <a href="" class="col-1 m-2 text-center city">ciudad</a>
+                    <div class="col-12 col-lg-4 box-seach ">
+                        <a href="" class="col-2 m-2 text-center city location">Location</a>
                         <a href="" class="col-1 m-2 text-center guest">Add guest</a>
                         <a href="" class="col-1 m-2 text-center "><i class="fas fa-search fa-1x"></i></a>
                     </div>
                 </nav>
                 <div class="row" id="mov">
+                    <div class="col-12">
+                        <h1 class="locationH1 col-12 col-lg-6"></h1>
+                          <h4 class="numGuest col-12 col-lg-2 " id="cont-total">+Guest</h4>
+                    </div>
                     <div class="card col-12 col-lg-3 lugar1A " >
                         <div class="card-body ">
                             <figure class="lugar ">
@@ -71,21 +74,21 @@
                             </figure>
                          </div>
                     </div>
-                    <div class="card col-12 col-lg-3 ">
+                    <div class="card col-12 col-lg-3 lugar2A">
                         <div class="card-body ">
                             <figure class="lugar ">
                                 <img src="assents/img/apart2.webp" alt="" class="img-fluid tamaño">
                             </figure>
                         </div>
                     </div>
-                    <div class="card col-12 col-lg-3 lugar1A">
+                    <div class="card col-12 col-lg-3 lugar3A">
                         <div class="card-body ">
                             <figure class="lugar ">
                                 <img src="assents/img/apart3.jpg" alt="" class="img-fluid tamaño">
                             </figure>
                         </div>
                     </div>
-                    <div class="card col-12 col-lg-3 lugar1A">
+                    <div class="card col-12 col-lg-3 lugar4A">
                         <div class="card-body ">
                             <figure class="lugar ">
                                 <img src="assents/img/apart4.png" alt="" class="img-fluid tamaño">
@@ -100,21 +103,21 @@
                             </figure>
                         </div>
                     </div>
-                    <div class="card col-12 col-lg-3">
+                    <div class="card col-12 col-lg-3 lugar2A">
                         <div class="card-body ">
                             <figure class="lugar ">
                                 <img src="assents/img/apart6.jpg" alt="" class="img-fluid tamaño">
                             </figure>
                         </div>
                     </div>
-                    <div class="card col-12 col-lg-3 lugar1A">
+                    <div class="card col-12 col-lg-3 lugar3A">
                         <div class="card-body ">
                             <figure class="lugar ">
                                 <img src="assents/img/apart7.jpg" alt="" class="img-fluid tamaño">
                             </figure>
                         </div>
                     </div>
-                    <div class="card col-12 col-lg-3 lugar1A">
+                    <div class="card col-12 col-lg-3 lugar4A">
                         <div class="card-body ">
                             <figure class="lugar ">
                                 <img src="assents/img/apart8.jpg" alt="" class="img-fluid tamaño">
@@ -122,28 +125,28 @@
                         </div>
                     </div>
                        
-                    <div class="card col-12 col-lg-3 ">
+                    <div class="card col-12 col-lg-3 lugar1A">
                         <div class="card-body ">
                             <figure class="lugar ">
                                 <img src="assents/img/apart9.jpg" alt="" class="img-fluid tamaño">
                             </figure>
                         </div>
                     </div>
-                    <div class="card col-12 col-lg-3 lugar1A">
+                    <div class="card col-12 col-lg-3 lugar2A">
                         <div class="card-body ">
                             <figure class="lugar ">
                                 <img src="assents/img/apart10.jpg" alt="" class="img-fluid tamaño">
                             </figure>
                         </div>
                     </div>
-                    <div class="card col-12 col-lg-3">
+                    <div class="card col-12 col-lg-3 lugar3A">
                         <div class="card-body ">
                             <figure class="lugar ">
                                 <img src="assents/img/apart11.jpg" alt="" class="img-fluid tamaño">
                             </figure>
                         </div>
                     </div>
-                    <div class="card col-12 col-lg-3">
+                    <div class="card col-12 col-lg-3 lugar4A">
                         <div class="card-body ">
                             <figure class="lugar ">
                                 <img src="assents/img/apart12.jpg" alt="" class="img-fluid tamaño">
@@ -151,28 +154,28 @@
                         </div>
                     </div>
                             
-                    <div class="card col-12 col-lg-3 ">
+                    <div class="card col-12 col-lg-3 lugar1A">
                         <div class="card-body ">
                             <figure class="lugar ">
                                 <img src="assents/img/apart13.webp" alt="" class="img-fluid tamaño">
                             </figure>
                          </div>
                     </div>
-                    <div class="card col-12 col-lg-3">
+                    <div class="card col-12 col-lg-3 lugar2A">
                         <div class="card-body ">
                             <figure class="lugar ">
                                 <img src="assents/img/apart14.webp" alt="" class="img-fluid tamaño">
                             </figure>
                         </div>
                     </div>
-                    <div class="card col-12 col-lg-3">
+                    <div class="card col-12 col-lg-3 lugar3A">
                         <div class="card-body ">
                             <figure class="lugar ">
                                 <img src="assents/img/apart15.jpg" alt="" class="img-fluid tamaño">
                             </figure>
                         </div>
                     </div>
-                    <div class="card col-12 col-lg-3">
+                    <div class="card col-12 col-lg-3 lugar4A">
                         <div class="card-body ">
                             <figure class="lugar ">
                                 <img src="assents/img/apart16.jpg" alt="" class="img-fluid tamaño">
