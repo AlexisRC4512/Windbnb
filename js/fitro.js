@@ -12,10 +12,10 @@ export default function filter(ciudad1,ciudad2,ciudad3,ciudad4){
     d.addEventListener('click',(e)=>{
         if(e.target.matches(ciudad1)){
             for(var i=0;i<location.length;i++){
-                location[i].innerHTML=`<a href="" class="col-1 m-2 text-center city location">Lima</a>`
+                location[i].innerHTML=`<a href="" class="col-1 m-2 text-center city location">Helsinki,Finland</a>`
             }
             for(var i=0;i<locationH1.length;i++){
-                locationH1[i].innerHTML=`<h1>Lima</h1>`
+                locationH1[i].innerHTML=`<h1>Helsinki,Finland</h1>`
             }
             for(var i=0;i<lugar1.length;i++){
            
@@ -54,10 +54,10 @@ export default function filter(ciudad1,ciudad2,ciudad3,ciudad4){
                 lugar4[i].classList.add("filter")
             }
             for(var i=0;i<location.length;i++){
-                location[i].innerHTML=`<a href="" class="col-1 m-2 text-center city location">Ica</a>`
+                location[i].innerHTML=`<a href="" class="col-1 m-2 text-center city location">Turku,Finland</a>`
             }
             for(var i=0;i<locationH1.length;i++){
-                locationH1[i].innerHTML=`<h1>Ica</h1>`
+                locationH1[i].innerHTML=`<h1>Turku,Finland</h1>`
             }
             
             menu.classList.remove("active")
@@ -80,10 +80,10 @@ export default function filter(ciudad1,ciudad2,ciudad3,ciudad4){
                 lugar4[i].classList.add("filter")
             }
             for(var i=0;i<location.length;i++){
-                location[i].innerHTML=`<a href="" class="col-1 m-2 text-center city location">Nueva Zelanda</a>`
+                location[i].innerHTML=`<a href="" class="col-1 m-2 text-center city location">Vaasa,Finland</a>`
             }
             for(var i=0;i<locationH1.length;i++){
-                locationH1[i].innerHTML=`<h1>Nueva zelanda</h1>`
+                locationH1[i].innerHTML=`<h1>Vaasa,Finland</h1>`
             }
            
             menu.classList.remove("active")
@@ -106,10 +106,10 @@ export default function filter(ciudad1,ciudad2,ciudad3,ciudad4){
                 lugar2[i].classList.add("filter")
             }
             for(var i=0;i<location.length;i++){
-                location[i].innerHTML=`<a href="" class="col-1 m-2 text-center city location">Canada</a>`
+                location[i].innerHTML=`<a href="" class="col-1 m-2 text-center city location">Oulu,Finland</a>`
             }
             for(var i=0;i<locationH1.length;i++){
-                locationH1[i].innerHTML=`<h1>Canada</h1>`
+                locationH1[i].innerHTML=`<h1>Oulu,Finland</h1>`
             }
            
             menu.classList.remove("active")

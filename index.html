@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"  integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="/css/style.css">
+   <link rel="stylesheet" href="/css/responsive.css">
+
   </head>
   <body>
         <nav class="menu-desplegable col-12 ">
@@ -24,10 +26,10 @@
                         <div class="list " id="lugarA" >
                             <div class="container-fluid row ">
                                 <ul class=" col-12 col-lg-5 m-4 city-opc">
-                                    <li class="lugar1 m-2"><i class="fas fa-map-marker-alt m-1 text-danger"></i><a href="" id="city1">Lima </a></li>
-                                    <li class="lugar1 m-2"><i class="fas fa-map-marker-alt m-1 text-danger"></i><a  href="" id="city2">IcA</a></li>
-                                    <li class="lugar1 m-2"><i class="fas fa-map-marker-alt m-1 text-danger"></i><a href="" id="city3">Nueava zelanda</a></li>
-                                    <li class="lugar1 m-2"><i class="fas fa-map-marker-alt m-1 text-danger"></i><a href="" id="city4">canada</a></li>
+                                    <li class="lugar1 m-2"><i class="fas fa-map-marker-alt m-1 text-danger"></i><a href="" id="city1">Helsinki,Finland </a></li>
+                                    <li class="lugar1 m-2"><i class="fas fa-map-marker-alt m-1 text-danger"></i><a  href="" id="city2">Turku,Finland</a></li>
+                                    <li class="lugar1 m-2"><i class="fas fa-map-marker-alt m-1 text-danger"></i><a href="" id="city3">Vaasa,Finland</a></li>
+                                    <li class="lugar1 m-2"><i class="fas fa-map-marker-alt m-1 text-danger"></i><a href="" id="city4">Oulu,Finland</a></li>
                                 </ul>
                                 <ul class="col-12 col-lg-5 m-4 guest-opc"> 
                                     <div id="adults">
@@ -55,7 +57,7 @@
         <div class="container">
             <div class="row" >
                 <nav class="main-nav row col-12 ">
-                    <span class="col-12 col-lg-3 text-center"> windbnb</span>
+                    <span class="col-12 col-lg-3 text-center title"> windbnb</span>
                     <div class="col-12 col-lg-4 box-seach ">
                         <a href="" class="col-2 m-2 text-center city location">Location</a>
                         <a href="" class="col-1 m-2 text-center guest">Add guest</a>
@@ -64,123 +66,170 @@
                 </nav>
                 <div class="row" id="mov">
                     <div class="col-12">
-                        <h1 class="locationH1 col-12 col-lg-6"></h1>
-                          <h4 class="numGuest col-12 col-lg-2 " id="cont-total">+Guest</h4>
+                        <h1 class="locationH1 col-6 col-lg-6">Stays in Finland</h1>
+                          <h4 class="numGuest col-2 col-lg-2 " id="cont-total">+Guest</h4>
                     </div>
-                    <div class="card col-12 col-lg-3 lugar1A " >
-                        <div class="card-body ">
+                    <div class="col-12 col-lg-3 lugar1A " >
                             <figure class="lugar ">
                                 <img src="assents/img/apart1.jpg" alt="luga" class="img-fluid tamaño">
                             </figure>
-                         </div>
+                            <div class="row col-12 tags">
+                                <span class="col-7">Entire apartment</span><span class="col-3">2 beds</span><i class="fas fa-star col-2">4.4</i>
+                                <h3>Stylist apartment in center of the city</h3>
+                            </div>
                     </div>
-                    <div class="card col-12 col-lg-3 lugar2A">
-                        <div class="card-body ">
+                    <div class=" col-12 col-lg-3 lugar2A">
+                       
                             <figure class="lugar ">
                                 <img src="assents/img/apart2.webp" alt="" class="img-fluid tamaño">
                             </figure>
-                        </div>
+                            <div class="row col-12 tags">
+                                <span class="col-7">Entire house</span><span class="col-3">4 beds</span><i class="fas fa-star col-2">4.2</i>
+                                <h3>Nice apartment in center of Helsinki</h3>
+                            </div>
                     </div>
-                    <div class="card col-12 col-lg-3 lugar3A">
-                        <div class="card-body ">
+                    <div class=" col-12 col-lg-3 lugar3A">
+               
                             <figure class="lugar ">
                                 <img src="assents/img/apart3.jpg" alt="" class="img-fluid tamaño">
                             </figure>
-                        </div>
+                            <div class="row col-12 tags">
+                                <span class="col-7">Entire apartment</span><span class="col-3">3 beds</span><i class="fas fa-star col-2">4.1</i>
+                                <h3>Arty interior in 1900 wooden house</h3>
+                            </div>
                     </div>
-                    <div class="card col-12 col-lg-3 lugar4A">
-                        <div class="card-body ">
+                    <div class="col-12 col-lg-3 lugar4A">
+             
                             <figure class="lugar ">
                                 <img src="assents/img/apart4.png" alt="" class="img-fluid tamaño">
                             </figure>
-                        </div>
+                            <div class="row col-12 tags">
+                                <span class="col-7">Entire apartment</span><span class="col-3">1 beds</span><i class="fas fa-star col-2">4.8</i>
+                                <h3>Apartment next to market spuare</h3>
+                            </div>
                     </div>
                        
-                    <div class="card col-12 col-lg-3 lugar1A">
-                        <div class="card-body ">
+                    <div class="col-12 col-lg-3 lugar1A">
+                     
                             <figure class="lugar ">
                                 <img src="assents/img/apart5.jpg" alt="" class="img-fluid tamaño">
                             </figure>
-                        </div>
+                            <div class="row col-12 tags">
+                                <span class="col-7">Entire apartment</span><span class="col-3">3 beds</span><i class="fas fa-star col-2">3.7</i>
+                                <h3>Villa Aurora guest-house</h3>
+                            </div>
                     </div>
-                    <div class="card col-12 col-lg-3 lugar2A">
-                        <div class="card-body ">
+                    <div class="col-12 col-lg-3 lugar2A">
+                   
                             <figure class="lugar ">
                                 <img src="assents/img/apart6.jpg" alt="" class="img-fluid tamaño">
                             </figure>
-                        </div>
+                            <div class="row col-12 tags">
+                                <span class="col-7">A cosy family house</span><span class="col-3">4 beds</span><i class="fas fa-star col-2">4.7</i>
+                                <h3>Villa Aurora guest-house</h3>
+                            </div>
                     </div>
-                    <div class="card col-12 col-lg-3 lugar3A">
-                        <div class="card-body ">
+                    <div class=" col-12 col-lg-3 lugar3A">
+                     
                             <figure class="lugar ">
                                 <img src="assents/img/apart7.jpg" alt="" class="img-fluid tamaño">
                             </figure>
-                        </div>
+                            <div class="row col-12 tags">
+                                <span class="col-7">Private room</span><span class="col-3">1 beds</span><i class="fas fa-star col-2">4.4</i>
+                                <h3>Lovely Studio near Railway Station</h3>
+                            </div>
                     </div>
-                    <div class="card col-12 col-lg-3 lugar4A">
-                        <div class="card-body ">
+                    <div class=" col-12 col-lg-3 lugar4A">
+            
                             <figure class="lugar ">
                                 <img src="assents/img/apart8.jpg" alt="" class="img-fluid tamaño">
                             </figure>
-                        </div>
+                            <div class="row col-12 tags">
+                                <span class="col-7">Entire house</span><span class="col-3">3 beds</span><i class="fas fa-star col-2">4.12</i>
+                                <h3>Peaceful little home in city center</h3>
+                            </div>
                     </div>
                        
-                    <div class="card col-12 col-lg-3 lugar1A">
-                        <div class="card-body ">
+                    <div class=" col-12 col-lg-3 lugar1A">
+                   
                             <figure class="lugar ">
                                 <img src="assents/img/apart9.jpg" alt="" class="img-fluid tamaño">
                             </figure>
-                        </div>
+                            <div class="row col-12 tags">
+                                <span class="col-7">Entire apartment</span><span class="col-3">3 beds</span><i class="fas fa-star col-2">4.5</i>
+                                <h3>Beautiful new studio apartment nearby the center</h3>
+                            </div>
                     </div>
-                    <div class="card col-12 col-lg-3 lugar2A">
-                        <div class="card-body ">
+                    <div class=" col-12 col-lg-3 lugar2A">
+                   
                             <figure class="lugar ">
                                 <img src="assents/img/apart10.jpg" alt="" class="img-fluid tamaño">
                             </figure>
-                        </div>
+                            <div class="row col-12 tags">
+                                <span class="col-7">Entire house</span><span class="col-3">2 beds</span><i class="fas fa-star col-2">4.6</i>
+                                <h3>Cozy woodhouse flat with wooden sauna</h3>
+                            </div>
                     </div>
-                    <div class="card col-12 col-lg-3 lugar3A">
-                        <div class="card-body ">
+                    <div class=" col-12 col-lg-3 lugar3A">
+                      
                             <figure class="lugar ">
                                 <img src="assents/img/apart11.jpg" alt="" class="img-fluid tamaño">
                             </figure>
-                        </div>
+                            <div class="row col-12 tags">
+                                <span class="col-7">Entire apartment</span><span class="col-3">3 beds</span><i class="fas fa-star col-2">4.4</i>
+                                <h3>Brand new studio apartment near the harbour</h3>
+                            </div>
                     </div>
-                    <div class="card col-12 col-lg-3 lugar4A">
-                        <div class="card-body ">
+                    <div class=" col-12 col-lg-3 lugar4A">
+                    
                             <figure class="lugar ">
                                 <img src="assents/img/apart12.jpg" alt="" class="img-fluid tamaño">
                             </figure>
-                        </div>
+                            <div class="row col-12 tags">
+                                <span class="col-7">Entire apartment</span><span class="col-3">2 beds</span><i class="fas fa-star col-2">4.6</i>
+                                <h3>Beautiful and comfortable old wooden house</h3>
+                            </div>
                     </div>
                             
-                    <div class="card col-12 col-lg-3 lugar1A">
-                        <div class="card-body ">
+                    <div class=" col-12 col-lg-3 lugar1A">
+                     
                             <figure class="lugar ">
                                 <img src="assents/img/apart13.webp" alt="" class="img-fluid tamaño">
                             </figure>
-                         </div>
+                            <div class="row col-12 tags">
+                                <span class="col-7">Entire house</span><span class="col-3">4 beds</span><i class="fas fa-star col-2">4.65</i>
+                                <h3>Turku Nordic Home near city center</h3>
+                            </div>
                     </div>
-                    <div class="card col-12 col-lg-3 lugar2A">
-                        <div class="card-body ">
+                    <div class="col-12 col-lg-3 lugar2A">
+                     
                             <figure class="lugar ">
                                 <img src="assents/img/apart14.webp" alt="" class="img-fluid tamaño">
                             </figure>
-                        </div>
+                            <div class="row col-12 tags">
+                                <span class="col-7">Entire apartment</span><span class="col-3">2 beds</span><i class="fas fa-star col-2">4.4</i>
+                                <h3>Stylist apartment in center of the city</h3>
+                            </div>
                     </div>
-                    <div class="card col-12 col-lg-3 lugar3A">
-                        <div class="card-body ">
+                    <div class=" col-12 col-lg-3 lugar3A">
+                
                             <figure class="lugar ">
                                 <img src="assents/img/apart15.jpg" alt="" class="img-fluid tamaño">
                             </figure>
-                        </div>
+                            <div class="row col-12 tags">
+                                <span class="col-7">Entire apartment</span><span class="col-3">3 beds</span><i class="fas fa-star col-2">4.8</i>
+                                <h3>Nice 2 room apartment close to everything</h3>
+                            </div>
                     </div>
-                    <div class="card col-12 col-lg-3 lugar4A">
-                        <div class="card-body ">
+                    <div class="col-12 col-lg-3 lugar4A">
+                   
                             <figure class="lugar ">
                                 <img src="assents/img/apart16.jpg" alt="" class="img-fluid tamaño">
                             </figure>
-                        </div>
+                            <div class="row col-12 tags">
+                                <span class="col-7">Entire apartment</span><span class="col-3">2 beds</span><i class="fas fa-star col-2">4.4</i>
+                                <h3>Stylist apartment in center of the city</h3>
+                            </div>
                     </div>
                 </div>
             </div>

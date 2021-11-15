@@ -46,7 +46,7 @@ a{
 .box-seach1{
     margin-right: auto;
     margin-left: auto;
-    margin-top: 50px;
+    margin-top: 30px;
     box-shadow: 0px 1px 6px rgb(0 0 0 / 20%);
     border-radius:30px;
     height: 50px;
@@ -58,9 +58,7 @@ a{
     font-size: 20px;
     color: black;
 }
-.box-seach1 i{
-    color: tomato;
-}
+
 .city{
     font-weight: 600;
     font-size: 17px;
@@ -68,11 +66,22 @@ a{
     text-align: left;
 }
 .menu-desplegable{
+    padding-top: 20px;
     background-color: #f2f2f2;
     position: absolute;
     z-index: 2000;
     transition:transform .3s ease;    
     transform: translate(0,-100%);
+}
+ li a{  
+    margin-top: 5px;
+    color: black;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1px;
+}
+.box-seach1 i{
+    color: tomato;
 }
 .active{
     transform: translate(0,0);
@@ -83,20 +92,20 @@ a{
 }
 .list{
     line-height: 15px;
-    margin-top: 50px;
+    margin-top: 10px;
     background-color: #f2f2f2;
-    padding-bottom: 100px;
+    padding-bottom: 10px;
 }
 .list i{
     margin-top: 10px;
 }
 #adults{
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     font-size: 18px;
     font-weight: 600;
 }
 #kids{
-    margin-bottom: 20px;
+    margin-bottom: 0px;
     font-size: 18px;
     font-weight: 600;
 }
@@ -124,14 +133,66 @@ a{
 }
 
 .numGuest{
+    font-size: 1.4rem;
+    font-weight: 400;
     padding-left: 100px;
     margin-top: 0px;
     float: right;
     padding-bottom: 10px;
 }
 .locationH1{
-    
+    font-size: 1.8rem;
+    font-weight: bold;
     margin-top: 0px;
     float: left;
     padding-bottom: 15px;
 }
+.title{
+    padding-right: 200px;
+}
+.tags{
+    padding: 0;
+    font-size: 13px;
+    font-weight: 100;
+    color: #828282;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content:space-evenly;
+    text-align: left;
+}
+.tags i{
+    padding-top: 1px;
+    color: tomato;
+    font-size: 12px;
+}
+.tags h3{
+    text-align: center;
+    color: black;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.2rem;
+    margin: 0;
+    padding: 0;
+   text-align: justify;
+}
+.city-opc{
+    padding-left: 230px;
+}
+.city-opc li{
+    padding-top: 10px;
+}
+#cont-adult{
+    padding:20px;
+    margin-left: 15px;
+ 
+}
+#cont-kids{
+    margin-left: 15px;
+ 
+    padding:20px
+}
+.guest-opc i{
+    color: tomato;
+}
+
