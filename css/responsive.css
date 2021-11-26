@@ -1,3 +1,86 @@
+@media(max-width:1300px){
+    .box-seach1{
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 30px;
+        box-shadow: 0px 1px 6px rgb(0 0 0 / 20%);
+        border-radius:30px;
+        height: 60px;
+        background-color: #f2f2f2;
+        text-align: center;
+        padding-left: 3px;
+        padding-right: 15px;
+     
+    }
+    .title{
+        padding-right: 10px;
+    }
+    .city-opc{
+        padding-left: 200px;
+        
+    }
+    .guest-opc {
+        padding-right: 0px;
+     }
+}
+@media(min-width:1900px){
+    .box-seach1{
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 30px;
+        box-shadow: 0px 1px 6px rgb(0 0 0 / 20%);
+        border-radius:30px;
+        height: 60px;
+        background-color: #f2f2f2;
+        text-align: center;
+        padding-left: 3px;
+        padding-right: 15px;
+     
+    }
+    .title{
+        padding-right: 10px;
+    }
+    .city-opc {
+        padding-left: 500px;
+    }
+    .guest-opc {
+        padding-left: 500px;
+     }
+    .opacidad{
+        opacity: 0;
+        display: none;
+    }
+}
+
+@media(max-width:900px){
+    .box-seach1{
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 30px;
+        box-shadow: 0px 1px 6px rgb(0 0 0 / 20%);
+        border-radius:30px;
+        height: 160px;
+        background-color: #f2f2f2;
+        text-align: center;
+        padding-left: 3px;
+        padding-right: 15px;
+     
+    }
+    .title{
+        padding-right: 10px;
+    }
+    .city-opc{
+        padding-left: 270px;
+        
+    }
+    .guest-opc {
+        padding-left: 270px;
+     }
+    .opacidad{
+        opacity: 0;
+        display: none;
+    }
+}
 @media(max-width:600px){
     .numGuest{
         font-size: 1.4rem;
@@ -11,11 +94,11 @@
         padding-right: 10px;
     }
     .city-opc{
-        padding-left: 110px;
+        padding-left: 60px;
         
     }
     .guest-opc {
-        padding-left: 120px;
+       padding-left: 50px;
     }
     .opacidad{
         opacity: 0;
@@ -39,5 +122,8 @@
     }
     .box-seach1 a{
         border-bottom:1px solid rgb(170, 167, 167) ;
+    }
+    .menu-desplegable{
+        padding-bottom: 100px;
     }
 }
